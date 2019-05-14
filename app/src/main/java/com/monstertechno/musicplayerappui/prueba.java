@@ -23,7 +23,7 @@ public class prueba extends AppCompatActivity {
         layoutGeneral = findViewById(R.id.linearLayoutPrueba);
         //boton.setVisibility(View.INVISIBLE);
         mLayout = (SlidingUpPanelLayout) findViewById(R.id.activity_main2);
-        mLayout.addPanelSlideListener(new SlidingUpPanelLayout.PanelSlideListener() {
+        /*mLayout.addPanelSlideListener(new SlidingUpPanelLayout.PanelSlideListener() {
             @Override
             public void onPanelSlide(View panel, float slideOffset)
             {
@@ -37,16 +37,12 @@ public class prueba extends AppCompatActivity {
                 {
                     layoutGeneral.setVisibility(View.INVISIBLE);
                 }
-                /*else if(mLayout.getPanelState() == SlidingUpPanelLayout.PanelState.)
-                {
-
-                }
-                */
                 if(mLayout.getPanelState()== SlidingUpPanelLayout.PanelState.COLLAPSED)
                 {
                     layoutGeneral.setVisibility(View.VISIBLE);
                 }
             }
         });
+        */
     }
 }
